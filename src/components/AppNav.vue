@@ -36,6 +36,8 @@ export default {
                 <select name="language" id="language">
                     <option>ENGLISH</option>
                     <option>GERMAN</option>
+                    <option>FRENCH</option>
+
                 </select>
 
                 <div class="user">
@@ -55,14 +57,6 @@ export default {
 
 
 <style scoped lang="scss">
-.container {
-    max-width: 1250px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-}
-
 .wrapper {
     width: 15%;
 
@@ -80,6 +74,10 @@ export default {
         margin: 1rem;
         cursor: pointer;
         vertical-align: middle;
+
+        &:hover {
+            text-decoration: underline;
+        }
 
         i {
             font-size: 11px;
