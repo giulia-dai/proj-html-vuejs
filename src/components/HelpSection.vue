@@ -48,6 +48,11 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="circles">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+        </div>
     </div>
 </template>
 
@@ -57,7 +62,7 @@ export default {
 
 .box {
     background-color: $secondary_background;
-    min-height: 500px; //misura da modificare dopo eventualmente!!
+    min-height: 650px;
     margin-top: 50px;
 }
 
@@ -79,6 +84,7 @@ export default {
     width: calc(100% / 3);
     margin: 10px;
     text-align: center;
+    background-color: white;
 }
 
 img {
@@ -104,6 +110,16 @@ img {
         color: white;
         background-color: $primary_color;
         cursor: pointer;
+    }
+}
+
+.circles {
+    text-align: center;
+
+    i {
+        font-size: 8px;
+        cursor: pointer;
+        padding: 10px;
     }
 }
 </style>
