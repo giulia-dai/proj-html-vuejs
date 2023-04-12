@@ -48,7 +48,7 @@ export default {
 
 
             <form>
-                <input type="text" placeholder="Search">
+                <input class="searchbar" type="text" placeholder="Search">
             </form>
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
@@ -100,5 +100,10 @@ export default {
     font-size: 18px;
     padding: 10px;
     cursor: pointer;
+}
+
+.searchbar {
+    border: none;
+    padding: 10px;
 }
 </style>

@@ -1,15 +1,15 @@
 <script>
 import AppNav from "./components/AppNav.vue";
 import AppJumbo from "./components/AppJumbo.vue";
+import AboutUsSection from "./components/AboutUsSection.vue";
+import HelpSection from "./components/HelpSection.vue";
 
 export default {
   components: {
     AppNav,
     AppJumbo,
-  },
-
-  data() {
-
+    AboutUsSection,
+    HelpSection,
   },
 }
 
@@ -26,7 +26,8 @@ export default {
 
   <!-- qui inizia il main -->
   <main>
-    <h1>qui inizia il main</h1>
+    <AboutUsSection></AboutUsSection>
+    <HelpSection></HelpSection>
   </main>
   <!-- qui inizia il footer -->
   <footer>
@@ -41,5 +42,9 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+}
+
+footer {
+  clear: left;
 }
 </style>

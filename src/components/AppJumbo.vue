@@ -29,7 +29,7 @@ export default {
     background-size: contain;
     background-position: 750px;
     background-repeat: no-repeat;
-    background-color: #EFF2F6;
+    background-color: $background;
     min-height: 400px;
     position: relative;
 }
