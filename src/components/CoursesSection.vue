@@ -34,27 +34,40 @@ export default {
 };
 </script>
 <template>
-    <div class="box">
-        <div class="text">
-            <h4>Let's Dream Big Together</h4>
-            <h2>Explore How can I help you</h2>
-        </div>
-    </div>
-    <div class="second-box">
-        <div v-for="item in items" class="card" style="width: 20rem;">
-            <img :src="item.image" alt="">
-            <div class="end">
-                <h2 class="price">{{ item.price }}
-                    <span class="cents">{{ item.small_price }}</span>
-                </h2>
-                <h3 class="course">{{ item.title }}</h3>
+    <div class="contain">
+        <div class="box">
+            <div class="text">
+                <h4>Let's Dream Big Together</h4>
+                <h2>Explore How can I help you</h2>
             </div>
+        </div>
+        <div class="second-box">
+            <div v-for="item in items" class="card" style="width: 20rem;">
+                <img :src="item.image" alt="">
+                <div class="end">
+                    <h2 class="price">{{ item.price }}
+                        <span class="cents">{{ item.small_price }}</span>
+                    </h2>
+                    <h3 class="course">{{ item.title }}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <h5 class="text-info">Take the control of their life back and start doing things to make their <br> dream come
+                <a href="#">View alla courses
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </h5>
         </div>
     </div>
 </template>
 
 <style scoped lang="scss">
 @use '../styles/generals.scss' as *;
+
+.contain {
+    margin: 0 80px;
+}
 
 .text {
     padding-top: 30px;
@@ -100,5 +113,19 @@ img {
 
 .course {
     color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.text-info {
+    text-align: center;
+    color: #707070;
+
+    a {
+        color: black;
+    }
 }
 </style>
