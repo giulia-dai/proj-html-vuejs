@@ -16,7 +16,6 @@ export default {
 }
 </script>
 <template>
-    <h1>APPNAV</h1>
     <nav>
         <div class="container">
             <div class="wrapper">
