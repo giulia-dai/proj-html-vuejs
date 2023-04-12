@@ -177,6 +177,7 @@ export default {
 
     a {
         color: $primary_color;
+        font-weight: 600;
     }
 }
 </style>
