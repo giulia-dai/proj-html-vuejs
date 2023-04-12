@@ -3,6 +3,7 @@ import AppNav from "./components/AppNav.vue";
 import AppJumbo from "./components/AppJumbo.vue";
 import AboutUsSection from "./components/AboutUsSection.vue";
 import HelpSection from "./components/HelpSection.vue";
+import CoursesSection from "./components/CoursesSection.vue";
 
 export default {
   components: {
@@ -10,6 +11,7 @@ export default {
     AppJumbo,
     AboutUsSection,
     HelpSection,
+    CoursesSection,
   },
 }
 
@@ -28,6 +30,7 @@ export default {
   <main>
     <AboutUsSection></AboutUsSection>
     <HelpSection></HelpSection>
+    <CoursesSection></CoursesSection>
   </main>
   <!-- qui inizia il footer -->
   <footer>

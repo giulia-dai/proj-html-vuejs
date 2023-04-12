@@ -26,7 +26,6 @@ export default {
 };
 </script>
 
-
 <template>
     <div class="box">
         <div class="text">
