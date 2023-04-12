@@ -4,6 +4,7 @@ import AppJumbo from "./components/AppJumbo.vue";
 import AboutUsSection from "./components/AboutUsSection.vue";
 import HelpSection from "./components/HelpSection.vue";
 import CoursesSection from "./components/CoursesSection.vue";
+import Videosection from "./components/VideoSection.vue";
 
 export default {
   components: {
@@ -12,6 +13,7 @@ export default {
     AboutUsSection,
     HelpSection,
     CoursesSection,
+    Videosection,
   },
 }
 
@@ -31,6 +33,7 @@ export default {
     <AboutUsSection></AboutUsSection>
     <HelpSection></HelpSection>
     <CoursesSection></CoursesSection>
+    <Videosection></Videosection>
   </main>
   <!-- qui inizia il footer -->
   <footer>
