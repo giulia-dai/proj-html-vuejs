@@ -29,7 +29,7 @@ export default {
 
         <!-- immagine sotto al video -->
         <div class="size">
-            <img class="size-shape" src="../assets/images/maxcoach-shape-07-100x100.png">
+            <img class="size-shape" src="../assets/images/maxcoach-shape-07-150x150.png">
         </div>
 
 
