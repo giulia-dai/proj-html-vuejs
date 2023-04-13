@@ -34,7 +34,7 @@ export default {
 };
 </script>
 <template>
-    <div class="contain">
+    <div class="contain" id="courses">
         <div class="box">
             <div class="text">
                 <h4>Let's Dream Big Together</h4>

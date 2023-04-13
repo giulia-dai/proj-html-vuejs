@@ -74,6 +74,9 @@ export default {
         </div>
         <!-- copyright -->
         <div class="copyright">&#169; 2020 Maxcoach. All Rights Reserved</div>
+        <button class="up">
+            <a href="#courses"><i class="fa-solid fa-arrow-up-long"></i></a>
+        </button>
     </div>
 </template>
 
@@ -130,5 +133,28 @@ export default {
     position: absolute;
     bottom: 30px;
     right: 40%;
+}
+
+.up {
+    background-color: $primary_color;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+    i {
+        font-size: 25px;
+    }
+
+
 }
 </style>
