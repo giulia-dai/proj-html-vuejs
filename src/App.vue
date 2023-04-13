@@ -8,6 +8,7 @@ import VideoSection from "./components/VideoSection.vue";
 import EventSection from "./components/EventSection.vue";
 import ReviewSection from "./components/ReviewSection.vue";
 import FooterTop from "./components/FooterTop.vue";
+import FooterBottom from "./components/FooterBottom.vue";
 
 export default {
   components: {
@@ -20,6 +21,7 @@ export default {
     EventSection,
     ReviewSection,
     FooterTop,
+    FooterBottom
   },
 }
 
@@ -46,6 +48,7 @@ export default {
   <!-- qui inizia il footer -->
   <footer>
     <FooterTop></FooterTop>
+    <FooterBottom></FooterBottom>
   </footer>
 </template>
 
