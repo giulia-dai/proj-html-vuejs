@@ -1,11 +1,6 @@
 <script>
 export default {
     name: 'FooterTop',
-    data() {
-        return {
-
-        }
-    }
 }
 </script>
 
