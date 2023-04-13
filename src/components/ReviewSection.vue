@@ -83,7 +83,7 @@ export default {
                 </div>
                 <div class="box">
                     <h4>{{ review.name_3 }}</h4>
-                    <div class="job"> {{ review.job_3 }}></div>
+                    <div class="job"> {{ review.job_3 }}</div>
                 </div>
             </div>
 
