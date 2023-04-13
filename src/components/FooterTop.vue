@@ -12,6 +12,7 @@ export default {
 <template>
     <div class="contain">
 
+        <!-- testo -->
         <div class="text">
             <div class="size">
                 <div><strong>Subscribe</strong>
@@ -28,6 +29,15 @@ export default {
                 <input type="email" class="mail" placeholder="Enter your email">
                 <button>Subscribe</button>
             </form>
+            <!-- immagini sfondo -->
+            <div class="bg">
+                <div class="img-wrap">
+                    <img src="../assets/images/maxcoach-shape-02.png" alt="" class="wrapped">
+                </div>
+            </div>
+            <div class="second-img">
+                <img class="second-wrap" src="../assets/images/blu-vert-circle.png" alt="circle">
+            </div>
         </div>
 
     </div>
@@ -43,6 +53,7 @@ export default {
 
 .text {
     text-align: center;
+    position: relative;
 
 
     .size {
@@ -63,8 +74,6 @@ export default {
     border: none;
     background-color: $secondary_background;
     width: 400px;
-
-
 }
 
 button {
@@ -76,5 +85,40 @@ button {
     border-bottom-right-radius: 5px;
     margin-left: 3px;
     cursor: pointer;
+}
+
+.bg {
+    min-width: 170px;
+    min-height: 170px;
+    position: absolute;
+    top: 0px;
+    right: 180px;
+    background-image: url(../assets/images/maxcoach-shape-09.png);
+    background-repeat: no-repeat;
+    background-size: 170px;
+}
+
+.img-wrap {
+    width: 100px;
+    position: relative;
+
+    .wrapped {
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        right: -60px;
+    }
+}
+
+.second-img {
+    position: relative;
+    width: 50px;
+
+    .second-wrap {
+        width: 100%;
+        position: absolute;
+        bottom: 70px;
+        right: -200px;
+    }
 }
 </style>
